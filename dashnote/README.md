@@ -1,4 +1,4 @@
-# dashnote-website
+# dashnote
 
 ## Project setup
 ```
