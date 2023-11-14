@@ -4,8 +4,8 @@
         <nav>
             <img src="../assets/dashnote-logo.png" alt="logo" style="height: 3rem; aspect-ratio: 1/1;">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Releases</a></li>
+                <li><router-link to="/">Home</router-link></li>
+                <li><router-link to="/releases">Releases</router-link></li>
                 <li><a href="#">Support</a></li>
             </ul>
         </nav>

@@ -2,19 +2,21 @@
   <HeaderComp />
   <hr>
   <div id="app">
-    <MainPage />
+    <router-view />
   </div>
 </template>
 
 <script>
 import MainPage from './components/MainPage.vue';
 import HeaderComp from './components/HeaderComp.vue';
+import router from './router';
 
 export default {
   components: {
     MainPage,
-    HeaderComp
-  },
+    HeaderComp,
+    router
+},
 };
 </script>
 
